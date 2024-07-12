@@ -1,32 +1,73 @@
 ---
-import logo from '../../public/images/logo.webp';
-
-
+import logo from "../../public/images/logo.webp";
 ---
 
 <header class="bg-yellow-400 text-primary-foreground sticky top-0 z-50 w-full">
-    <div class="container mx-auto flex h-24 items-center justify-between px-4 md:px-6">
-      <a class="flex items-center gap-10" href="/" rel="ugc">
-        <img src="/images/logo.webp" alt="bfc logo" class="h-14 w-14 rounded-full" />
-        <span class="text-2xl font-bold">Burger, Fish and Chips</span>
-      </a>
-      <nav class="hidden md:flex items-center gap-20">
-        <a class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors" href="#" rel="ugc">Menu</a>
-        <a class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors" href="#" rel="ugc">About</a>
-        <a class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors" href="#" rel="ugc">Locations</a>
-        <a class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors" href="#" rel="ugc">Contact</a>
-      </nav>
-      <a class="inline-flex h-9 items-center justify-center rounded-md px-4 py-2 text-md shadow-md transition-colors  hover:bg-yellow-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" href="#" rel="ugc">
-        Ordena Ahora
-      </a>
-      <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="mobile-menu" data-state="closed">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
-          <line x1="4" x2="20" y1="12" y2="12"></line>
-          <line x1="4" x2="20" y1="6" y2="6"></line>
-          <line x1="4" x2="20" y1="18" y2="18"></line>
-        </svg>
-        <span class="sr-only">Toggle Menu</span>
-      </button>
-    </div>
-  </header>
-  
+  <div
+    class="container mx-auto flex h-24 items-center justify-between px-4 md:px-6"
+  >
+    <a class="flex items-center   lg:gap-10 gap-5" href="/" rel="ugc">
+      <img
+        src="/images/logo.webp"
+        alt="bfc logo"
+        class="h-14 w-14 rounded-full"
+      />
+      <span class="sm:text-xl md:text-lg text-2xl font-bold text-center">Burger, Fish and Chips</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-20">
+      <a
+        class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors"
+        href="#"
+        rel="ugc">Menu</a
+      >
+      <a
+        class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors"
+        href="#"
+        rel="ugc">About</a
+      >
+      <a
+        class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors"
+        href="#"
+        rel="ugc">Locations</a
+      >
+      <a
+        class="text-md font-medium outline-none px-4 py-2 rounded-md hover:bg-yellow-600 shadow-md transition-colors"
+        href="#"
+        rel="ugc">Contact</a
+      >
+    </nav>
+    <a
+      class="hidden lg:inline-flex md:inline-flex h-9 items-center justify-center rounded-md sm:px-2 lg:px-4 py-2 text-md shadow-md transition-colors  hover:bg-yellow-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      href="#"
+      rel="ugc"
+    >
+      Ordena Ahora
+    </a>
+    <button
+      class="inline-flex items-center justify-center rounded-md text-sm font-medium border-2 border-zinc-800 hover:text-accent-foreground h-10 w-10 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+      type="button"
+      aria-haspopup="dialog"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      data-state="closed"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+      >
+        <line x1="4" x2="20" y1="12" y2="12"></line>
+        <line x1="4" x2="20" y1="6" y2="6"></line>
+        <line x1="4" x2="20" y1="18" y2="18"></line>
+      </svg>
+      <span class="sr-only">Toggle Menu</span>
+    </button>
+  </div>
+</header>
