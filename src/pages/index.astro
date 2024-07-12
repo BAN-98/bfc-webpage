@@ -1,9 +1,16 @@
 ---
+import Carrousel from "../components/Carrousel.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <div class="w-full h-screen bg-zinc-800 flex  items-start">
-    <img class="max-w max-h-full object-contain" src="/images/clasic-burger.jpg" alt="clasic-burger">
+  <div class="w-full h-screen bg-zinc-800 flex items-start">
+    <img
+      class="max-w max-h-full object-contain"
+      src="/images/clasic-burger.jpg"
+      alt="clasic-burger"
+    />
+  </div><div class="">
+    <Carrousel />
   </div>
 </Layout>

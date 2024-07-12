@@ -1,37 +1,11 @@
 ---
-import { Swiper } from "swiper";
-import "swiper/css";
-
-const swiper = new Swiper(".swiper", {
-  direction: "vertical",
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-next",
-  },
-});
+import { Splide, SplideSlide } from "../../node_modules/@splidejs/react-splide";
 ---
-
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
+<Splide aria-label="My Favorite Images">
+  <SplideSlide>
+    <img src="/public/images/clasic-burger.jpg" alt="Image 1"/>
+  </SplideSlide>
+  <SplideSlide>
+    <img src="/public/images/clasic-burger.jpg" alt="Image 2"/>
+  </SplideSlide>
+</Splide>

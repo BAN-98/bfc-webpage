@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
     "astro": "^4.11.5",
-    "swiper": "^11.1.4",
     "typescript": "^5.5.3"
   },
   "devDependencies": {
