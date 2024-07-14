@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["onest", "sans-serif"],
+        onest: ["onest", "sans-serif"],
       },
     },
   },
